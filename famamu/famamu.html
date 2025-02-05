@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAMAMU Plumbing Company</title>
+    <link rel="stylesheet" href="famamu.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>FAMAMU Plumbing Company</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Reliable Plumbing Services</h2>
+            <p>Your trusted partner for all plumbing needs.</p>
+            <button onclick="scrollToSection('contact')">Get in Touch</button>
+        </div>
+    </section>
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>FAMAMU Plumbing Company is a family-owned business with over 20 years of experience. We provide top-quality plumbing services to residential and commercial customers.</p>
+        </div>
+    </section>
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Leak Detection and Repair</li>
+                <li>Drain Cleaning</li>
+                <li>Pipe Installation and Replacement</li>
+                <li>Water Heater Installation and Repair</li>
+                <li>Emergency Plumbing Services</li>
+            </ul>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 FAMAMU Plumbing Company. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="famamu.js"></script>
+</body>
+</html>
